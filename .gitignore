@@ -1,0 +1,17 @@
+# Dependencies and build
+node_modules/
+.next/
+out/
+
+# Env and local
+.env*
+!.env.local.example
+.vercel/
+
+# Testing and tooling
+coverage/
+.turbo/
+
+# OS
+.DS_Store
+
