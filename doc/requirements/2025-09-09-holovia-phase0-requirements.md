@@ -1,5 +1,34 @@
 # Holovia Phase 0 Requirements — One-Shot LLM Project Generation (React + Vercel)
 
+Here’s a brief **“About the Name”** section in Markdown for your project **Holovia**:
+
+---
+
+## 🌀 About the Name: **Holovia**
+
+**Holovia** blends the words **“holistic”** and **“via”** (Latin for *path* or *way*), evoking the idea of a **guided journey toward well-being** through integrative practices, flexible tracking, and compassionate support.
+
+It suggests:
+
+* A **whole-person** approach to healing
+* A **pathway** illuminated by insights, updates, and reflection
+* A fluid, **adaptive relationship** between user and guide (the AI)
+
+---
+
+### 🌙 The Icon
+
+doc/images/2025-09-09-holovia-logo.png
+
+The **Holovia** icon features a **teal crescent** cradling a **lotus-inspired flame**:
+
+* The **crescent** symbolizes **inner cycles**, healing rhythms, and gentle transformation.
+* The **lotus flame** represents **practice, emergence, and illumination**—rooted in ancient traditions of holistic medicine and mindfulness.
+* The **balance** between the two forms reflects the interplay of structure (Activities, timelines) and openness (freeform updates, flexible practices).
+
+Together, they embody Holovia’s mission: to support meaningful change by walking with users on their evolving path to wellness.
+
+
 ## 1) Business Context & Success Criteria
 
 ### Problem Statement
