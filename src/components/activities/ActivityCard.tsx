@@ -1,5 +1,5 @@
 "use client"
-import { Activity } from '@/types'
+import { Activity } from '@/types/index'
 import { Button } from '@/components/ui/Button'
 import { formatDateTime } from '@/utils/datetime'
 import { useApp } from '@/context/AppContext'

@@ -2,14 +2,20 @@ import Google from 'next-auth/providers/google'
 import type { NextAuthConfig } from 'next-auth'
 
 export default {
-  providers: [
-    Google({
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-    }),
-  ],
+  providers: [Google],
   session: { strategy: 'jwt' },
   trustHost: true,
-  secret: process.env.NEXTAUTH_SECRET,
+  callbacks: {
+    authorized: async ({ auth }) => {
+      return !!auth
+    },
+    redirect: async ({ url, baseUrl }) => {
+      // Redirect to home page after successful sign-in
+      if (url === '/auth/signin') {
+        return baseUrl
+      }
+      return url.startsWith(baseUrl) ? url : baseUrl
+    },
+  },
 } satisfies NextAuthConfig
 

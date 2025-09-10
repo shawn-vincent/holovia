@@ -1,6 +1,6 @@
 import { ActivityList } from '@/components/activities/ActivityList'
 import { ChatDock } from '@/components/chat/ChatDock'
-import { auth } from 'next-auth'
+import { auth } from '@/auth'
 import Link from 'next/link'
 
 export default async function HomePage() {

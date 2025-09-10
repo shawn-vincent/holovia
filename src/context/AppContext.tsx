@@ -1,7 +1,7 @@
 "use client"
 import React, { createContext, useContext, useEffect, useMemo, useReducer } from 'react'
-import type { AppState, Activity, ChatMessage, UserSettings } from '@/types'
-import { DEFAULT_SETTINGS } from '@/types'
+import type { AppState, Activity, ChatMessage, UserSettings } from '@/types/index'
+import { DEFAULT_SETTINGS } from '@/types/index'
 
 type Action =
   | { type: 'SET_SETTINGS'; payload: Partial<UserSettings> }

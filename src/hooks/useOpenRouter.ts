@@ -1,7 +1,7 @@
 "use client"
 import { useCallback } from 'react'
 import { useApp } from '@/context/AppContext'
-import type { ChatMessage } from '@/types'
+import type { ChatMessage } from '@/types/index'
 
 const SYSTEM_PROMPT = `You are a compassionate wellness assistant helping users track and improve their holistic health journey.\n\nGuidelines:\n- Ask permission before creating activities.\n- Encourage detailed, supportive conversation.\n- When suggesting an activity, include a single-line token:\n  ACTIVITY_SUGGESTION: {"name":"...","description":"..."}`
 
